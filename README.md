@@ -5,10 +5,6 @@
 This project shows how the source code can be architectured to run on multiple devices. As of now, it is able to run as:
 
 - iOS & Android Apps (based on [react-native](https://facebook.github.io/react-native))
-- a Desktop App based on [NW](http://nwjs.io) or based on [Electron](http://electron.atom.io)
-- a Website App in any browser (based on [react](https://facebook.github.io/react))
-
-A demo for the Website App is available [here](http://benoitvallon.github.io/react-native-nw-react-calculator).
 
 ## Screenshots
 
@@ -16,26 +12,14 @@ A demo for the Website App is available [here](http://benoitvallon.github.io/rea
 
 ![Mobile Apps](images/mobile-apps.png "Mobile Apps")
 
-### Desktop Apps (NW & Electron)
-
-![Desktop App](images/desktop-apps.png "Desktop App")
-
-### Website App
-
-![Website App](images/website-app.png "Website App")
-
 ## Libraries/tools
 
 This project uses libraries and tools like:
 - es6 syntax and [babel](https://babeljs.io)
-- [react](https://facebook.github.io/react) for the Website App and Desktop App,
 - [react-native](https://facebook.github.io/react-native) for the iOS & Android Apps
-- [NW](http://nwjs.io) to package the Desktop App
-- [Electron](http://electron.atom.io) to package the Desktop App
 - [flux](https://facebook.github.io/flux) to organize the data flow management
 - [css-loader](https://github.com/webpack/css-loader) to integrate the styles in the builds
 - [grunt](http://gruntjs.com) to create the builds
-- [webpack](https://webpack.github.io) to help during the development phase with hot reloading
 
 ## Basic philosophy
 
@@ -140,22 +124,12 @@ Some builds from npm included bugs while `npm install`. So if you are using a np
 
 Congratulations! You've just successfully run the project as an iOS or Android App.
 
-## The Website App
-
-### Requirements for React
-
-There isn't any additional requirements since you already installed the deps with `npm install`.
-
 ### Quick start
 
 - `npm run build` to build the project (at least the first time)
 - `npm run serve-web` to preview in the browser at http://localhost:8000/index.web.html or http://localhost:8000/webpack-dev-server/index.web.html with webpack-dev-server and hot reload enabled
 
 Congratulations! You've just successfully run the project as a Website App.
-
-## The Desktop App
-
-You can either run the project with [NW](http://nwjs.io) or [electron](http://electron.atom.io).
 
 ### Requirements for NW
 
